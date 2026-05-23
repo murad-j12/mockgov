@@ -83,7 +83,7 @@ const CONFIG = {
     regnalName: "Marold I",
     fullTitle:
       "His Serene Highness Marold I von Mannlicher, Archduke of Rivenne, Duke of Eisenberg and Graumont, Lord Protector of the Sacred Flame, Sovereign of the Iron Crown, Grand Master of the Order of the Black Wolf, Defender of the Realm and Guardian of the Mountain Passes.",
-    house: "House von Mannlicher",
+    house: "House von Mannlicher.",
     reignStart: "1st of January, Year 1618",
     born: "12th of January, Year 1579",
     personalMotto: "Vincere aut Mori in Tenta",
