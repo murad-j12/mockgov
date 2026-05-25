@@ -9,10 +9,10 @@ const CONFIG = {
     area: "638,542 km\u00B2",
     currency: "Krone (Kr)",
     founded: "Year 1618 of the Realm",
-    languages: ["English", "French", "German"],
+    languages: ["English", "French", "German", "Spanish"],
     religion: "Monotheism",
     govType: "Semi-Constitutional Archduchy",
-    inUniverseDate: "12th Day of January, Year 1618 of the Realm",
+    inUniverseDate: "June, Year 1618 of the Realm",
   },
 
   community: {
@@ -83,7 +83,7 @@ const CONFIG = {
     regnalName: "Marold I",
     fullTitle:
       "His Serene Highness Marold I von Mannlicher, Archduke of Rivenne, Duke of Eisenberg and Graumont, Lord Protector of the Sacred Flame, Sovereign of the Iron Crown, Grand Master of the Order of the Black Wolf, Defender of the Realm and Guardian of the Mountain Passes.",
-    house: "House von Mannlicher.",
+    house: "House von Mannlicher",
     reignStart: "1st of January, Year 1618",
     born: "12th of January, Year 1579",
     personalMotto: "Vincere aut Mori in Tenta",
@@ -130,7 +130,7 @@ const CONFIG = {
       ministry: "Executive Head",
       isHead: false,
       portrait: "images/korr.png",
-      description: "Head of government and chair of the Imperial Cabinet.",
+      description: "Head of government and chair of the Archducal Cabinet.",
     },
     {
       title: "Minister",
@@ -232,18 +232,18 @@ const CONFIG = {
   realmFacts: [
     { label: "Total Area", value: "638,542 km\u00B2" },
     { label: "Highest Point", value: "Mount Valdris (5,476 m)" },
-    { label: "Major Rivers", value: "Rhein, Glattinburg, Monch" },
+    { label: "Major Rivers", value: "Gernsbach, Woldendern, Heisanchenho" },
     { label: "Coastline", value: "1.7 million km\u00B2" },
     { label: "Climate", value: "Temperate Continental with Alpine zones" },
   ],
 
   provinces: {
     capital: {
-      name: "Korhaven \u2014 Imperial Capital District",
+      name: "Korhaven \u2014 Archducal Capital District",
       type: "Imperial Capital",
       population: "2.4 Million",
       governor: "TBA",
-      description: "The capital city of the Archduchy.",
+      description: "The capital city of the Archduchy. Previously known as Veldmarch",
     },
     graumont: {
       name: "Graumont Province",
@@ -259,7 +259,7 @@ const CONFIG = {
       population: "2.8 Million",
       governor: "TBA",
       description:
-        "Southern coastal basin encircled by mountain walls, with low-lying plains, and sheltered bays covered in temperate deciduous forest. Going east, taigas dominate the northern part with a few mountain clusters. These quickly fade into broadleaf woods towards the shores.",
+        "Southern coastal basin encircled by mountain walls, with low-lying plains, and sheltered bays covered in taigas. Going east, taigas dominate the northern part with a few mountain clusters. These quickly fade into broadleaf woods towards the shores.",
     },
     valaismont: {
       name: "Valaismont Province",
@@ -275,7 +275,7 @@ const CONFIG = {
       population: "1.9 Million",
       governor: "TBA",
       description:
-        "A sea of temperate deciduous forests. The most boring province to probably exist, except a tiny lake and two rivers.",
+        "A sea of temperate deciduous forests and taigas. The most boring province to probably exist, except a tiny lake and two rivers.",
     },
     eisenberg: {
       name: "Eisenberg Province",
@@ -286,15 +286,15 @@ const CONFIG = {
         "The highest and coldest province, with the mountains surrounded by sparse tundra and rocky barrens. Upper slopes and valleys are ringed by a taiga belt of coniferous trees, but beyond this narrow perimeter, temperate deciduous forest dominates the province. Deep valleys and narrow passes create natural chokepoints amid the rugged highland terrain.",
     },
     aiguillefort: {
-      name: "Aiguillefort Province",
+      name: "Montverde Province",
       type: "Frontier Mountain Duchy",
       population: "1.2 Million",
       governor: "TBA",
       description:
-        "Steep southeastern frontier of high ridges, deep gorges, and sharp alpine peaks surrounded by taigas.Mid-slopes and valleys are also surrounded by taiga belts, but beyond these are temperate deciduous forests, which reclaim the lower terrain and eastern edges. Dramatic cliffs drop toward the coast in places.",
+        "Steep southeastern frontier of high ridges, deep gorges, and sharp alpine peaks surrounded by taigas. Mid-slopes and valleys are also surrounded by taiga belts, but beyond these are temperate deciduous forests, which reclaim the lower terrain and eastern edges. Dramatic cliffs drop toward the coast in places.",
     },
     schwarzwald: {
-      name: "Schwarzwald Province",
+      name: "Teufelswald Province",
       type: "Western Border Duchy",
       population: "0.3 Million",
       governor: "TBA",
@@ -330,35 +330,35 @@ const CONFIG = {
       {
         icon: "\u2694\uFE0F",
         name: "Imperial Army",
-        strength: "95,000 active",
+        strength: "25,000 active",
         description:
           "The main professional force of Rivenne, composed of line infantry, heavy cavalry, artillery, and elite Mountain J\u00E4gers.",
       },
       {
         icon: "\u269A",
         name: "Royal Musketeers",
-        strength: "4,500 active",
+        strength: "5,000 active",
         description:
           "The prestigious elite guard of the Archduke. Famous for their marksmanship, flamboyant bravery, and unyielding loyalty.",
       },
       {
         icon: "\uD83D\uDEE1\uFE0F",
         name: "Archducal Guard",
-        strength: "3,000 active",
+        strength: "2,000 active",
         description:
           "The personal household troops responsible for protecting the royal family and serving as elite shock troops.",
       },
       {
         icon: "\uD83D\uDC6E",
         name: "Imperial Constabulary",
-        strength: "28,000 active",
+        strength: "20,000 active",
         description:
           "The provincial gendarmerie maintaining law and order, border security, and internal stability.",
       },
     ],
     stats: [
-      { label: "Active Personnel", value: "130,500" },
-      { label: "Reserve Force", value: "280,000" },
+      { label: "Active Personnel", value: "52,000" },
+      { label: "Reserve Force", value: "350,000" },
       { label: "Defence Budget", value: "28.4 million Kr" },
     ],
   },
@@ -393,7 +393,7 @@ const CONFIG = {
       {
         icon: "\uD83D\uDCDA",
         title: "Scholarship & Craft",
-        text: "The Imperial Academy of Veldmarch, founded in 1281, is one of the finest centers of learning on the continent. Rivenne takes great pride in its master artisans, engineers, and scholars who blend tradition with bold innovation.",
+        text: "The Archducal Academy of Veldmarch, founded in 1281, is one of the finest centers of learning on the continent. Rivenne takes great pride in its master artisans, engineers, and scholars who blend tradition with bold innovation.",
       },
     ],
     nobility: [
@@ -458,14 +458,14 @@ const CONFIG = {
     {
       type: "general",
       date: "Sunday, 17th of May, Year 2026",
-      title: "Establishment of the Imperial State Portal",
+      title: "Establishment of the Archducal State Portal",
       body: "The Office of the Grand Cartographer and Chief Minister shall maintain this official portal for all citizens and foreign dignitaries. All decrees, census data, and diplomatic correspondence shall be published herein.",
       author: "Office of the Chief Minister",
     },
   ],
 
   footer: {
-    copyright: "\u00A9 Year 0\u20131618 of the Realm. All rights reserved under Imperial Law.",
+    copyright: "\u00A9 Year 0\u20131618 of the Realm. All rights reserved under Archducal Law.",
   },
 };
 
