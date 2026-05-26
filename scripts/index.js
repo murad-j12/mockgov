@@ -164,7 +164,7 @@ const CONFIG = {
       ministry: "War",
       isHead: false,
       portrait: null,
-      description: "Commands the Imperial Army.",
+      description: "Commands the Archducal Army.",
     },
     {
       title: "Minister",
@@ -240,7 +240,7 @@ const CONFIG = {
   provinces: {
     capital: {
       name: "Korhaven \u2014 Archducal Capital District",
-      type: "Imperial Capital",
+      type: "Archducal Capital",
       population: "2.4 Million",
       governor: "TBA",
       description: "The capital city of the Archduchy. Previously known as Veldmarch",
@@ -329,7 +329,7 @@ const CONFIG = {
     branches: [
       {
         icon: "\u2694\uFE0F",
-        name: "Imperial Army",
+        name: "Archducal Army",
         strength: "25,000 active",
         description:
           "The main professional force of Rivenne, composed of line infantry, heavy cavalry, artillery, and elite Mountain J\u00E4gers.",
@@ -350,7 +350,7 @@ const CONFIG = {
       },
       {
         icon: "\uD83D\uDC6E",
-        name: "Imperial Constabulary",
+        name: "Archducal Constabulary",
         strength: "20,000 active",
         description:
           "The provincial gendarmerie maintaining law and order, border security, and internal stability.",
