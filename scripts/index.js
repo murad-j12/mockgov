@@ -259,7 +259,7 @@ const CONFIG = {
       population: "2.8 Million",
       governor: "TBA",
       description:
-        "Southern coastal basin encircled by mountain walls, with low-lying plains, and sheltered bays covered in taigas. Going east, taigas dominate the northern part with a few mountain clusters. These quickly fade into broadleaf woods towards the shores.",
+        "Southern coastal basin encircled by mountain walls, with low-lying plains and sheltered bays covered in taigas. Going east, taigas dominate the northern part with a few mountain clusters. These quickly fade into broadleaf woods towards the shores.",
     },
     valaismont: {
       name: "Valaismont Province",
